@@ -363,4 +363,3 @@ const tripEventsListElement = tripDaysElement.querySelector(`.trip-events__list`
 for (let i = 0; i < TRIP_COUNT; i++) {
   render(tripEventsListElement, createTripTemplate(), `beforeend`);
 }
-
